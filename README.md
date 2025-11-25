@@ -90,35 +90,6 @@ Custom-STM32F411-FC/
 | SDA    | I2C1_SDA | PB9     |
 | SCL    | I2C1_SCL | PB8     |
 
-### **Motor Outputs**
-
-(Example mapping, adapt based on your routing)
-
-| Motor | MCU Pin | Timer    |
-| ----- | ------- | -------- |
-| M1    | PA0     | TIM2_CH1 |
-| M2    | PA1     | TIM2_CH2 |
-| M3    | PA2     | TIM2_CH3 |
-| M4    | PA3     | TIM2_CH4 |
-| M5    | PB0     | TIM3_CH3 |
-
-### **UARTs**
-
-| Purpose    | TX  | RX   |
-| ---------- | --- | ---- |
-| GPS        | PA9 | PA10 |
-| SBUS Input | —   | PA15 |
-
-### **SPI (Future Expansion)**
-
-| Pin  | MCU           |
-| ---- | ------------- |
-| SCK  | PB3           |
-| MISO | PB4           |
-| MOSI | PB5           |
-| CS   | any free GPIO |
-
----
 
 ## **🛠️ Building the Firmware**
 
